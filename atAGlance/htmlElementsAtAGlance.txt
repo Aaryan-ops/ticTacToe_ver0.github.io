@@ -1,0 +1,41 @@
+
+
+
+Main elments used are <TABLE>, <BUTTON>, <TR>, <TH>, <TD>, and <DIV>.
+
+
+
+
+
+
+
+
+
+
+** The game board is created using a table.
+
+<table>
+
+</table>
+
+** The tr-element is used to set three rows.
+<table>
+<tr></tr>*3
+</table>
+
+** The td elements in each tr elment are used to create three columns per row.
+
+<table>
+<tr><td></td>*3</tr>
+</table>
+
+
+** The reset button is created using button element. It has an onclick attribute set to reset() callback routine which wipes the game board clean on click.
+<button onclick="reset()">Reset</button>
+
+** The div element is used to make a dialog box to display the end-game result.
+<div></div>
+
+**Inside the dialog box div, another div is created to contain the text.
+
+<div><div></div></div>

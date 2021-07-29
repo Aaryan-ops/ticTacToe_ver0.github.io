@@ -1,0 +1,5 @@
+The borders of table are chopped-off from the outskirts to resemble a traditional tic-tac-toe game board.
+
+The display dialog is set to display:none until the game is over.
+
+The board appears in the upper-center of the viewport and the rest button is on its upper-right.

@@ -1,0 +1,13 @@
+A tie can only be achieved when all the cells are filled. There is no other way to have a tie and stop the game then and there.
+
+The aiPlayer is not trying to win. It just fills the next available empty space.
+
+The huPlayer move is depicted by 'O' and that of aiPlayer by 'X'.
+There are three possible outcomes of the game, at which it ends : huPlayer win, aiPlayer win and tie. At any of these outcomes, appropriate cells are rendered with a background and an overlay dialog declares the result in text.
+The reset button removes all the background colors from the previous gameplay and removes the overlay dialog to present an empty board.
+
+
+
+
+
+The gamplay is triggered by the user as soon as he clicks an empty spot. It ends only when there is an winning streak or if a player has a winning combination.

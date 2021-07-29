@@ -1,0 +1,17 @@
+
+Array methods used.
+-------------------
+indexOf();    filter() ;    every();    reduce()    ; concat()  ;
+
+
+Operators
+---------
+typeof;  == ; ternary operator
+
+Booleans
+--------
+empty/non-empty object; 
+
+DOM manipulation 
+------------------------
+querySelector.style.display     ; querySelector.innerHTML;      removeEventListener ;   getElementById.style.backgroundColor;   style.removeProperty; addEventListener; querySelectorAll.
