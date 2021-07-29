@@ -1,0 +1,36 @@
+Selectors
+--------
+td
+table
+table tr:first-child td
+table tr:last-child td
+table tr td:first-child
+table tr td:last-child
+.dialog
+
+
+
+Property selectors
+--------------
+font-size
+color
+border-radius
+text-align
+padding-top
+padding-bottom
+background-color
+margin-left
+left
+top
+position
+width
+height
+display
+border-top
+border-bottom
+border-left
+border-right
+border-collapse
+vertical-align
+font-family
+cursor

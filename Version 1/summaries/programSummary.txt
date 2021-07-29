@@ -1,0 +1,9 @@
+The Game Reset button has no style to it.
+It is positioned At the top right of the board.
+The board is placed at ...
+Cursor is set to pointer in gameplay mode. It is disabled when game is to end.
+Human player character is set to 'O' while the aiPlayer's is set to 'X. The human player move is indicated by 'O' and that of aiPlayer by X.
+A successful combination renders differnt colors in differnt cases to indicate the outcome of the game.
+If human player wins, the successful combinaition cells having 'O' are rendered with blue background.
+If aiPlayer wins, the the successful combination, the corresponding combination in this outcome of the game, is depicted by 'X' cells with red background color.
+An outcome of tie makes all cells green.

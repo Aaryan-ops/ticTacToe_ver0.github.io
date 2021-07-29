@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe Game</title>
+    <!--Descriptions-->
+    <meta name="author" content="Aaryan Singh Chauhan" />
+    <meta
+      name="description"
+      content="Implementation of Tic Tac Toe Game using HTML, CSS and Javascript. This is version one. Simple implementation that puts X's in the next empty spot found.The ai is not trying to win. It just fills an empty spot. The winning, loosing or tying of the game is dependent on the human player."
+    />
+    <meta name="keywords" content="HTML CSS Javascript" />
+
+    <!--Presentation file-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header
+      style="
+        height: 60px;
+        width: 170px;
+        background-color: #aaa;
+        color: aliceblue;
+        font-size: large;
+        padding-top: 10px;
+        padding-left: 9px;
+        line-height: 30px;
+        position: fixed;
+      "
+    >
+      Simple Tic Tac Toe<br /><span style="font-size: small; padding-top: 5px"
+        >Aaryan Singh Chauhan</span
+      >
+    </header>
+    <ul style="font-size: larger">
+      <li>User = 'O'</li>
+      <li>AI= 'X'</li>
+    </ul>
+    <!--The board is a table element with three rows and three columns. Each cell is a propective spot where a player makes a move.-->
+    <table>
+      <tr>
+        <td class="spot" id="0"></td>
+        <!--Each cell has an id string equal in numeric value to its index in an array.-->
+        <td class="spot" id="1"></td>
+        <td class="spot" id="2"></td>
+      </tr>
+      <tr>
+        <td class="spot" id="3"></td>
+        <td class="spot" id="4"></td>
+        <td class="spot" id="5"></td>
+      </tr>
+      <tr>
+        <td class="spot" id="6"></td>
+        <td class="spot" id="7"></td>
+        <td class="spot" id="8"></td>
+      </tr>
+    </table>
+    <!--This is an overlay dialog that shall show up at the end of a gameplay, to declare outcome of the game.-->
+    <div class="dialog"><div class="message"></div></div>
+
+    <!--This button input resets the game to play again and presents a clean board. -->
+    <button onclick="reset()">Game Reset</button>
+
+    <!--Program file-->
+    <script src="script.js"></script>
+  </body>
+</html>

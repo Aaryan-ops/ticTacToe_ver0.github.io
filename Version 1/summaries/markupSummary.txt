@@ -1,0 +1,8 @@
+There is a table element making up nine spots  on which a user clicks. The cursor changes to a pointer to indicate clickable area. 
+The extra borders have been chopped-off of the outskirts of the table to mimic the tic tac toe board.
+A game reset button resets the Game.
+Opening the game the first time, and clicking on the Game Reset button do the same thing.
+The result of the game is shown on the overlay screen that pops over the board indicating game end. At this point the user cannot click and interact with the board anymore.
+The result-display is  a div element that contains another div element containing text.
+There are three meta tags giving description, author and keyword informations.
+One external javascript file and one css file are linked to this markup.
